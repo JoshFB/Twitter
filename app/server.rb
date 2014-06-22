@@ -2,6 +2,9 @@ require 'sinatra'
 require 'sinatra/flash'
 require 'data_mapper'
 
+require_relative 'controllers/application'
+require_relative 'controllers/cheets'
+
 require_relative 'helpers/application'
 require_relative 'data_mapper_setup'
 
